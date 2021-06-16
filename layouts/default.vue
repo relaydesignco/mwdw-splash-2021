@@ -5,14 +5,6 @@
   </div>
 </template>
 
-<script>
-import AppFooter from '~/components/AppFooter.vue';
-
-export default {
-  components: {
-    AppFooter,
-  },
-};
-</script>
+<script></script>
 
 <style lang="postcss"></style>

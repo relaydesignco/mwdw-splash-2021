@@ -48,16 +48,6 @@
   </div>
 </template>
 
-<script>
-import AppHero from '@/components/AppHero.vue';
-import EmailForm from '@/components/EmailForm.vue';
-
-export default {
-  components: {
-    AppHero,
-    EmailForm,
-  },
-};
-</script>
+<script></script>
 
 <style lang="postcss"></style>

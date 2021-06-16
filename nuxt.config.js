@@ -1,10 +1,13 @@
 export default {
-  mode: 'universal',
-  /*
-   ** Headers of the page
-   */
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Midwest Design Week',
+    htmlAttrs: {
+      lang: 'en',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -53,40 +56,39 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-  /*
-   ** Customize the progress-bar color
-   */
+
+  // Customize the progress-bar color
   loading: { color: '#fff' },
-  /*
-   ** Global CSS
-   */
-  css: [], // stylesheet being loaded by @nuxt/tailwindcss
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
+  css: [],
 
   webfontloader: {
-    // typekit: {
-    //   id: 'xxxxxx', // for Adobe Typekit fonts
-    // },
     google: {
       families: ['Source Sans Pro:400,700', 'Lekton:400,700'], // Google Font with weights 400 and 700
     },
   },
 
-  /*
-   ** Plugins to load before mounting the App
-   */
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['~/plugins/dateformat.js'],
-  generate: {},
-  /*
-   ** Nuxt.js dev-modules
-   */
-  buildModules: ['@nuxtjs/tailwindcss', 'nuxt-webfontloader'],
-  /*
-   ** Build configuration
-   */
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: true,
+
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+  buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss', 'nuxt-webfontloader'],
+
+  // Modules: https://go.nuxtjs.dev/config-modules
+  modules: [
+    // https://go.nuxtjs.dev/axios
+    '@nuxtjs/axios',
+  ],
+
+  // Axios module configuration: https://go.nuxtjs.dev/config-axios
+  axios: {},
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    /*
-     ** You can extend webpack config here
-     */
     extractCSS: true,
     extend(config, ctx) {},
   },

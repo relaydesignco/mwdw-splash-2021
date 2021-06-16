@@ -30,15 +30,8 @@
 </template>
 
 <script>
-import SvgSymbol from '@/components/SvgSymbol';
-import SvgLogo from '@/components/SvgLogo';
-
 export default {
   name: 'AppHero',
-  components: {
-    SvgSymbol,
-    SvgLogo,
-  },
   data() {
     return {
       tagline: 'Midwest Design Week',

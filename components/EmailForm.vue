@@ -36,7 +36,19 @@
 
       <input
         type="submit"
-        class="formEmailButton bg-blue hover:opacity-75 text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline md:w-1/3 uppercase tracking-wide"
+        class="
+          formEmailButton
+          bg-blue
+          hover:opacity-75
+          text-white
+          font-bold
+          py-2
+          px-4
+          focus:outline-none focus:ring
+          md:w-1/3
+          uppercase
+          tracking-wide
+        "
         name="submit"
         value="Subscribe"
       />
@@ -60,13 +72,6 @@ export default {
       default: 'f248d566af',
     },
   },
-  // data() {
-  //   return {
-  //     formAction: 'https://aiga.us3.list-manage.com/subscribe/post',
-  //     mcU: '751e598f443a47697e8b78cb9',
-  //     mcId: 'f248d566af',
-  //   };
-  // },
 };
 </script>
 
