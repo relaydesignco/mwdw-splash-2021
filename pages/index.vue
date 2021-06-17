@@ -1,24 +1,37 @@
 <template>
   <div>
     <app-hero></app-hero>
-    <main class="px-4 md:px-12 lg:px-0 pt-12 max-w-screen-lg mx-auto md:grid grid-cols-2 gap-16">
+    <main class="px-4 md:px-12 lg:px-0 max-w-screen-lg mx-auto md:grid grid-cols-2 gap-16">
       <div>
-        <h2 class="text-3xl mb-1 uppercase font-bold">New This Year</h2>
-        <p class="text-xl mb-12">
-          Our world is shaped by <strong>culture</strong> in its many forms: customary beliefs,
-          shared values, learned behavior, and traditions, to name a few. The
-          <strong>diversity</strong> of experience and culture is what makes each person unique,
-          which is why for our first ever virtual Design Week, we, the AIGA chapters from
-          <strong>Cincinnati, Indianapolis, Louisville, and Toledo</strong>
-          celebrate the many colorful voices of our communities.
+        <h1 class="text-xl uppercase leading-tight">Mark your calendars for:</h1>
+        <time class="block text-4xl mb-8 uppercase font-bold leading-tight">
+          October 11-15, 2021!
+        </time>
+        <h2 class="text-3xl mb-1 uppercase font-bold">We're Back!</h2>
+        <p class="text-xl mb-6">
+          Buckle up y’all, we’re back with the second-ever Midwest Design Week! AIGA Midwest
+          Chapters are thrilled to present
+          <strong>5 days of virtual, accessible design goodness.</strong>
+          There will be
+          <strong>workshops, virtual hangs, and insights shared from top creatives</strong>
+          in the Midwest that will leave you inspired, educated and reinvigorated.
         </p>
-        <h2
-          class="text-3xl mb-8 md:mb-0 uppercase font-bold leading-tight tracking-normal font-sans"
-        >
-          Save the Date
-          <br />
-          September 21 - 25, 2020
-        </h2>
+        <p class="text-xl mb-6">
+          MWDW is a growing collaborative effort, hosted by AIGA Chapters:
+          <strong>
+            Cincinnati, Detroit, Indianapolis, Louisville, Northwest Arkansas, St. Louis, Toledo,
+            West Michigan, and Wisconsin.
+          </strong>
+          We’ve joined forces to highlight the creative excellence in each of our regions without
+          our attendance being restricted by location.
+        </p>
+        <p class="text-xl mb-12">
+          Midwest Design Week aims to
+          <strong>
+            celebrate the power of design and diversity with inclusive and engaging virtual events
+          </strong>
+          — not just for Midwesterners, but for anyone with a passion to leverage design for good.
+        </p>
       </div>
       <div>
         <h2 class="text-3xl mb-4 uppercase font-bold">Stay In Touch</h2>
@@ -29,7 +42,7 @@
         />
       </div>
     </main>
-    <div class="px-4 md:px-12 lg:px-0 pt-12 pb-16 md:pb-32 max-w-screen-lg mx-auto">
+    <!-- <div class="px-4 md:px-12 lg:px-0 pt-12 pb-16 md:pb-32 max-w-screen-lg mx-auto">
       <h2 class="text-3xl mb-1 uppercase font-bold leading-tight">
         Interested in Sponsoring the Event?
       </h2>
@@ -44,7 +57,7 @@
           Sponsorship Opportunities.
         </a>
       </p>
-    </div>
+    </div> -->
   </div>
 </template>
 

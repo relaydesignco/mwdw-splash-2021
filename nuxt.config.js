@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Midwest Design Week',
+    title: 'Midwest Design Week 2021',
     htmlAttrs: {
       lang: 'en',
     },
@@ -15,7 +15,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Virtual Design Week featuring Louisville, Cincinnati, Indiananpolis, and Toledo AIGA Chapters.',
+          'Virtual Design Week featuring Cincinnati, Detroit, Indianapolis, Louisville, Northwest Arkansas, St. Louis, Toledo, West Michigan, and Wisconsin AIGA Chapters.',
       },
       {
         hid: 'twitter:card',
@@ -30,7 +30,7 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Midwest Design Week',
+        content: 'Midwest Design Week 2021',
       },
       {
         hid: 'og:type',
@@ -51,7 +51,7 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'Virtual Design Week featuring Louisville, Cincinnati, Indiananpolis, and Toledo AIGA Chapters.',
+          'Virtual Design Week featuring Cincinnati, Detroit, Indianapolis, Louisville, Northwest Arkansas, St. Louis, Toledo, West Michigan, and Wisconsin AIGA Chapters.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -65,7 +65,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Source Sans Pro:400,700', 'Lekton:400,700'], // Google Font with weights 400 and 700
+      families: ['Hind Siliguri:400,700'], // Google Font with weights 400 and 700
     },
   },
 

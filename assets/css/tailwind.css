@@ -2,22 +2,15 @@
 @tailwind components;
 
 body {
-  @apply text-black;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  @apply font-mono tracking-wide;
+  @apply text-lightgray bg-darkgray;
 }
 
 a {
-  @apply text-blue;
+  @apply text-purple-500;
 }
 
 .field {
-  @apply appearance-none shadow border w-full py-2 px-3 text-gray-700 leading-tight;
+  @apply appearance-none w-full py-2 px-3 leading-tight;
 }
 
 .field:focus {
@@ -25,15 +18,11 @@ a {
 }
 
 .field-label {
-  @apply block text-gray-700 mb-2;
+  @apply block mb-2;
 }
 
 input[type='email'].field:focus:invalid {
-  @apply shadow-none border-red;
+  @apply ring-2 ring-red-500;
 }
 
 @tailwind utilities;
-
-/* .place-center {
-  place-items: center;
-} */

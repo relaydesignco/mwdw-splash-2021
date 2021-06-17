@@ -38,9 +38,9 @@
         type="submit"
         class="
           formEmailButton
-          bg-blue
-          hover:opacity-75
-          text-white
+          text-darkgray
+          bg-lightgray
+          hover:bg-purple-500
           font-bold
           py-2
           px-4

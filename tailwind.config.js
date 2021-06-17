@@ -10,16 +10,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Source Sans Pro', ...defaultTheme.fontFamily.sans],
-        mono: ['Lekton', ...defaultTheme.fontFamily.mono],
+        sans: ['Hind Siliguri', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        black: '#3f3e3f',
-        green: '#8fc73e',
-        teal: '#4dc1b5',
-        blue: '#5d9bcc',
-        red: '#cb1d1f',
-        offwhite: '#fbfaf7',
+        darkgray: '#212120',
+        lightgray: '#A6A6A6',
       },
       letterSpacing: {
         wide: '0.1em',
